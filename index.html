@@ -11,19 +11,80 @@
             max-width: 800px;
             margin: auto;
             padding: 20px;
+            background-color: white;
         }
-        h1, h2 {
-            color: #333;
+        
+        h1 {
+            background-color: lightslategray;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 32px;
         }
+
+        h2 {
+            color: cadetblue;
+            font-size: 28px;
+            text-align: left;
+            background-color: white;
+            padding: 5px;
+        }
+
+        p {
+            color: black;
+            text-align: justify;
+            text-justify: inter-word;
+            font-size: 18px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         .step {
             margin-bottom: 20px;
             padding: 15px;
-            border-left: 5px solid #007BFF;
+            border-left: 5px solid cadetblue;
             background: #f9f9f9;
+            font-size: 18px;
+        }
+
+        /* Navigation Bar (if you plan to add one) */
+        .navbar {
+            border: 1px solid #ccc;
+            border-width: 1px 0;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .navbar li {
+            display: inline;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .navbar a {
+            display: inline-block;
+            padding: 10px;
+            color: black;
+        }
+        
+        /* Centered text class */
+        .centre {
+            text-align: center;
         }
     </style>
 </head>
 <body>
+
     <h1>How to Create a Prolific Account</h1>
     <p>Follow these steps to sign up for a Prolific account as a research participant.</p>
     
@@ -61,5 +122,6 @@
         <h2>Step 7: Start Taking Studies</h2>
         <p>Once your profile is complete, browse available studies and start participating.</p>
     </div>
+
 </body>
 </html>
