@@ -14,7 +14,7 @@
             background-color: white;
             position: relative; /* To position the logo */
         }
-        
+
         h1 {
             background-color: lightslategray;
             color: white;
@@ -55,7 +55,24 @@
             font-size: 18px;
         }
 
-        /* University of Leicester Logo */
+        .step-content {
+            display: flex;
+            justify-content: space-between; /* Distribute space between the text and image */
+            align-items: center;
+            gap: 30px; /* Adds space between text and image */
+        }
+
+        .step-content p {
+            flex: 1; /* Allow the text to take up available space */
+            padding-right: 30px; /* Add space between the text and the image */
+        }
+
+        .step-image {
+            max-width: 200px; /* Adjust image size */
+            height: auto; /* Maintain the image aspect ratio */
+            margin-left: auto; /* Push the image to the right */
+        }
+
         .logo {
             position: absolute;
             top: 20.7px;
@@ -63,7 +80,6 @@
             width: 204.6px; /* Adjust size as needed */
         }
 
-        /* Navigation Bar (if you plan to add one) */
         .navbar {
             border: 1px solid #ccc;
             border-width: 1px 0;
@@ -85,8 +101,7 @@
             padding: 10px;
             color: black;
         }
-        
-        /* Centered text class */
+
         .centre {
             text-align: center;
         }
@@ -102,38 +117,60 @@
     
     <div class="step">
         <h2>Step 1: Visit the Prolific Website</h2>
-        <p>Go to <a href="https://www.prolific.com/">Prolific's official website</a>.</p>
+        <div class="step-content">
+            <p>Go to <a href="https://www.prolific.com/">Prolific's official website</a>.</p>
+            <img src="https://drive.google.com/file/d/17zOZpexT6XTjIntdKDEZpwk5xiV_YJex/view?usp=share_link" alt="Step 1 Screenshot" class="step-image">
+        </div>
     </div>
     
     <div class="step">
         <h2>Step 2: Click on "Sign Up"</h2>
-        <p>On the homepage, click the "Sign Up" button at the top right corner.</p>
+        <div class="step-content">
+            <p>On the homepage, click the "Sign Up" button at the top right corner.</p>
+            <img src="path-to-screenshot-2.png" alt="Step 2 Screenshot" class="step-image">
+        </div>
     </div>
     
     <div class="step">
         <h2>Step 3: Choose "Participant" Account</h2>
-        <p>When prompted, select "I want to take part in studies" to proceed.</p>
+        <div class="step-content">
+            <p>When prompted, select "I want to take part in studies" to proceed.</p>
+            <img src="path-to-screenshot-3.png" alt="Step 3 Screenshot" class="step-image">
+        </div>
     </div>
     
     <div class="step">
         <h2>Step 4: Enter Your Details</h2>
-        <p>Fill in your email, create a password, and enter your basic personal information.</p>
+        <div class="step-content">
+            <p>Fill in your email, create a password, and enter your basic personal information.</p>
+            <img src="path-to-screenshot-4.png" alt="Step 4 Screenshot" class="step-image">
+        </div>
     </div>
     
     <div class="step">
         <h2>Step 5: Verify Your Email</h2>
-        <p>Check your inbox for a verification email and click the link inside to confirm your account.</p>
+        <div class="step-content">
+            <p>Check your inbox for a verification email and click the link inside to confirm your account.</p>
+            <img src="path-to-screenshot-5.png" alt="Step 5 Screenshot" class="step-image">
+        </div>
     </div>
     
     <div class="step">
         <h2>Step 6: Complete Your Profile</h2>
-        <p>Log in to your account and complete your demographic profile to qualify for studies.</p>
+        <div class="step-content">
+            <p>Log in to your account and complete your demographic profile to qualify for studies.</p>
+            <img src="path-to-screenshot-6.png" alt="Step 6 Screenshot" class="step-image">
+        </div>
     </div>
     
     <div class="step">
         <h2>Step 7: Start Taking Studies</h2>
-        <p>Once your profile is complete, browse available studies and start participating.</p>
+        <div class="step-content">
+            <p>Once your profile is complete, browse available studies and start participating.</p>
+            <img src="path-to-screenshot-7.png" alt="Step 7 Screenshot" class="step-image">
+        </div>
     </div>
 
 </body>
 </html>
+
